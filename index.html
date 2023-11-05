@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="Asset\apps.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+        <div class="bigatron">
+          <h1>Rizaakbr Portfolio</h1>
+          <p>My Vision Through Lens</p>
+        </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#recent">Recent Works</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    </header>
+      
+    <main>
+      <aside class="buddy">
+        <div class="wrapper side-panel-open">
+          <button class="side-panel-toggle" type="button">
+            <span class="material-symbols-outlined sp-icon-open">&#10094;</span>
+            <span class="material-symbols-outlined sp-icon-close">&#10095;</span>
+          </button>
+          <div class="side-panel">
+            <div class="social-media">
+              <ul>
+                <li></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="imgrd"><img src="Asset\img.png"></i></a></li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      </aside>
+      <div class="cc">
+        <article id="about">
+          <h2>About Riza</h2>
+          
+          <div class="bio">
+            <p>
+              <img class="photo" src="Asset\me.png" alt="Riza">
+              Born in Pekalongan, Indonesia. Riza Akbar first picked up a camera at the early age of twelve - influenced by street and conceptual photography. 
+              Growing up with the massive development of social media and digital techniques enabled Riza to see the bigger picture what social media needed. 
+              After graduating high school he naturally felt the transition to fashion photography. 
+            </p>
+            <p>
+              Now His focus is Portrait photography especially catalog and modelling, but
+              He also take the graduation, sport, and street photography. 
+            </p>
+            <p>
+              He currently resides in Jakarta and regularly travels for assignments, working between Jakarta, Tangerang, and Bogor.
+            </p>
+            </div>
+        </article>
+
+        <article id="recent" class="cc">
+          <h2>Recent Works</h2>
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 10</div>
+              <img src="Asset/img1.jpg" style="width:40%">
+              <div class="text">Caption Text</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 10</div>
+              <img src="Asset/img2.jpg" style="width:40%">
+              <div class="text">Caption Two</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 10</div>
+              <img src="Asset/img3.jpg" style="width:40%">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">4 / 10</div>
+              <img src="Asset/img4.jpg" style="width:40%">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">5 / 10</div>
+              <img src="Asset/img5.jpg" style="width:40%">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">6 / 10</div>
+              <img src="Asset/img6.jpg" style="width:40%">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">7 / 10</div>
+              <img src="Asset/img7.jpg" style="width:40%">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">8 / 10</div>
+              <img src="Asset/img8.jpg" style="width:40%">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">9 / 10</div>
+              <img src="Asset/img9.jpg" style="width:40%">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+              <div class="numbertext">10 / 10</div>
+              <img src="Asset/img10.jpg" style="width:40%">
+              <div class="text">Caption Three</div>
+            </div>
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+          </div>
+        </article>
+
+        <article id="contact" class="cc">
+          <h2>Contact</h2>
+          <p>For new enquiries please contact me at</p>
+          <p>Whatsapp : +62 821 370 0712</p>
+          <p>Email : rizaakbr@gmail.com</p>
+          <p>Behance : https://www.behance.net/rizaakbr</p>
+        </article>
+      </div>
+        
+    </main>
+    
+    <footer>
+      <p>By Muhammad Riza Jamalul Akbar &#169; 2023, Bangkit Academy</p>
+    </footer>
+</body>
+</html>
+
+
+<script>
+
+  document.querySelector(".side-panel-toggle").addEventListener("click", ()=>{
+      document.querySelector(".wrapper").classList.toggle("side-panel-open");
+  });
+
+  let slideIndex = 1;
+  showSlides(slideIndex);
+
+// Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+// Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  } 
+
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+</script>
